@@ -9,9 +9,8 @@ class SocketService {
     if (!this.io) {
       this.io = new socketIO(server, {
         cors: {
-          origin: "http://localhost:5173",
-          // origin: "https://c918-5-77-206-197.ngrok-free.app",
-          // origin: "https://673d-5-77-206-197.ngrok-free.app",
+          // origin: "http://localhost:5173",
+          origin: "https://emulator-front.netlify.app",
           methods: ["GET", "POST"],
         },
       });
