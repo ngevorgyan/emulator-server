@@ -6,6 +6,7 @@ function addListeners() {
 
   io.on("connection", (socket) => {
     console.log(`${socket.id} user connected`);
+
     socket.on("join-room", (roomName) => {
       socket.join(roomName);
     });
