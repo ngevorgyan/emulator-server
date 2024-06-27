@@ -2,10 +2,10 @@
   "name": "emulator-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon app.js",
     "seeder": "node seeders/seeder.js"
   },
   "author": "",
